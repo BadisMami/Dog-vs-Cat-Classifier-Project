@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.h5
+*.onnx
+checkpoints/
+models/*.weights
+
+# Datasets (uncomment if you're not committing the full dataset)
+# data/
+# dataset/
+# *.jpg
+# *.png
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+wandb/
+runs/
